@@ -8,8 +8,8 @@ fi
 if [ -d "$1" ]; then
     echo "$1 은 디렉터리입니다."
 elif [ -f "$1" ]; then
-    echo "$1 은 파일입니다"
+    echo "$1 은 파일입니다."
 else
-    echo "$1 은 존재하지 않습니다"
+    echo "$1 은 존재하지 않습니다."
 fi
     
